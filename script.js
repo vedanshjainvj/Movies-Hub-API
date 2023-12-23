@@ -20,9 +20,12 @@ const showMovies = (data) => {
         <img src="${IMGPATH + item.poster_path}" alt="">
     <div class="overlay">
         <div class="title">
-            <h2>${item.original_title}</h2>
-            <span>${item.vote_average}</span>
-            <h3>Overview :</h3>
+        <div class="title-box"> 
+        <h6>${item.original_title}</h6>
+            <p class="rating-p">${item.vote_average} ⭐</p>
+        </div>
+            
+            <h5>Overview :</h5>
             <p>${item.overview}</p>
         </div>
     </div>`;
