@@ -27,7 +27,7 @@ body {
 
 .box {
   padding: 10px;
-  width: 80%; /* Full width on smaller screens */
+  width: 90%; /* Full width on smaller screens */
   height: 300px;
   overflow: hidden;
   border-radius: 25px;
